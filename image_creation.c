@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
         return 2;
     }
 
-    FILE *output = fopen("test.bmp", "wb");
+    FILE *output = fopen("fractal.bmp", "wb");
     if (output == NULL)
     {
         return 2;
