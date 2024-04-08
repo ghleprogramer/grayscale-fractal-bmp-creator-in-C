@@ -4,7 +4,7 @@ options: CENTER RANGE FRACTAL_LOOP_LENGTH RESOLUTION #options must be used in or
 
 CENTER: (num,num)
 
-RANGE: pos num
+RANGE: pos num. range limit is 0.00005
 
 FRACTAL_LOOP_LENGTH: pos num
 
