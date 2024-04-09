@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+float *centered_rangelist(float list_center, float range, int size);
+float *length_rangelist(float range[2], int length);
+
 float *centered_rangelist(float list_center, float range, int size)
 {
     float *list = malloc(sizeof(float) * size);
